@@ -14,6 +14,8 @@ class House:
             else:
                 print("Такого этажа не существует!")
                 break
+        if new_floor <= 0:
+            print("Такого этажа не существует!")
             pass
 
 h1 = House('ЖК Горский', 18)
